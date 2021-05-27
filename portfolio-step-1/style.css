@@ -6,35 +6,36 @@ body {
     line-height: 32px;
     color: #456268;
     background-color: #fcf8ec;
-    background-image: url("img/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: top center;
+    text-align: center;
   }
   
   .container {
-    max-width: 928px;
     margin: 0 auto;
     padding: 0 16px;
   }
   
   .page-header {
+    min-width: 100%;
     margin: 0 0 160px;
     padding: 32px 0 32px;
-  }
+    background-color: #ba135d;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23f4cca4' fill-opacity='0.37' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");}
   
   .page-header .container,
   .page-footer .container {
-    max-width: 1408px;
     text-align: right;
   }
   
   .page-header a {
     margin-left: 56px;
-    color: #79a3b1;
+    color: #000000;
     text-decoration: none;
     background-repeat: no-repeat;
     background-position: left;
   }
+  
   
   .header-email {
     padding-left: 30px;
@@ -42,9 +43,15 @@ body {
   }
   
   .header-phone {
-    padding-left: 25px;
+    padding-left: 30px;
     background-image: url("img/icon-phone-header.svg");
   }
+
+  .header-logo {
+    padding-left: 30px;
+    background-image: url("img/motivation.svg");
+  }
+  
   
   .hero-image {
     margin-bottom: 620px;
@@ -93,15 +100,18 @@ body {
     font-size: 28px;
     line-height: 40px;
     font-weight: 500;
+    text-align: center;
   }
   
   .intro p {
     margin: 0 0 32px;
+    text-align: center;
   }
   
   .skills-list {
     margin: 0;
     padding: 0;
+    text-align: center;
   }
   
   .skills-list dt {
@@ -171,8 +181,9 @@ body {
   
   .page-footer {
     padding: 40px 0;
-    background-color: #d0e8f2;
-    color: #456268;
+    color: #000000;;
+    background-color: #ba135d;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23f4cca4' fill-opacity='0.37' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
   }
   
   .page-footer a {
@@ -181,6 +192,7 @@ body {
     text-decoration: none;
     background-repeat: no-repeat;
     background-position: left;
+    
   }
   
   .footer-email {
