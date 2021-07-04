@@ -12,6 +12,11 @@ body {
   text-align: center;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 928px;
   margin: 0 auto;
@@ -54,7 +59,7 @@ body {
 }
 
 .hero-image .container {
-  max-width: 100%;
+  max-width: 1408px;
   text-align: center;
 }
 
