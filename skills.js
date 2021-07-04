@@ -16,6 +16,6 @@ fetch('db/skills.json')
             dl.append(dt);
             dl.append(dd);
         });
-        document.getElementById('skills').append(dl);
+        document.querySelector('#skills').append(dl);
     })
     .catch(() => console.error("Sh'ol by ty otsuda"));
