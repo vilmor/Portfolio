@@ -54,7 +54,7 @@ body {
 }
 
 .hero-image .container {
-  max-width: 1408px;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -156,6 +156,7 @@ body {
 
 .project-image {
   margin: 0 0 24px;
+  max-width: 100%;
   text-align: center;
 }
 
